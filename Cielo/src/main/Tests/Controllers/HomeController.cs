@@ -24,17 +24,17 @@ namespace Tests.Controllers
             var ret = "";
             try
             {
-                var xs = new XmlSerializer(typeof(Transacao));
+                var xs = new XmlSerializer(typeof(Transaction));
                 var ms = new MemoryStream();
                 var encoding = Encoding.GetEncoding("iso-8859-1");
                 var xw = new XmlTextWriter(ms, encoding);
 
-                var transacao = new Transacao();
+                var transacao = new Transaction();
 
-                transacao.Autenticacao = new Autenticacao
+                transacao.Autenticacao = new Authentication
                 {
-                    Chave = "Chave1",
-                    Numero = "Numero1"
+                    Key = "Chave1",
+                    Number = "Numero1"
                 };
                 transacao.Pagamento = new Pagamento
                 {

@@ -1,19 +1,21 @@
 ﻿using System;
+using System.ComponentModel;
+using System.Diagnostics;
 using System.Xml.Serialization;
 using Cielo.Extensions;
 
 namespace Cielo
 {
+    [XmlType]
     [Serializable]
-    //[DebuggerStepThrough]
-    //[DesignerCategory("code")]
-    [XmlType(Namespace = "https://ecommerce.cbmp.com.br")]
+    [DebuggerStepThrough]
+    [DesignerCategory("code")]
     public class Pedido
     {
         public Pedido()
         {
             Moeda = Moeda.Real;
-            Idioma = Idioma.PT;
+            Idioma = Idioma.Pt;
             DataHora = DateTime.Now;
         }
 
@@ -28,37 +30,10 @@ namespace Cielo
         public Moeda Moeda { get; set; }
         public DateTime DataHora { get; private set; }
         public string Descricao { get; private set; }
-        public Idioma Idioma { get; set; }
+        public Language Idioma { get; set; }
         public string DescricaoParaFatura { get; set; }
         public int TaxaEmbarque { get; set; }
         public int Valor { get; private set; }
-    }
-
-    [Serializable]
-    [XmlTypeAttribute(Namespace = "https://qasecommerce.cielo.com.br")]
-    [XmlRootAttribute("requisicao-transacao", Namespace = "https://qasecommerce.cielo.com.br", IsNullable = false)]
-    public class Transacao
-    {
-        [XmlElementAttribute("dados-ec")]
-        public Autenticacao Autenticacao { get; set; }
-        [XmlElementAttribute("forma-pagamento")]
-        public Pagamento Pagamento { get; set; }
-    }
-
-    [XmlType]
-    [Serializable]
-    public class Pagamento
-    {
-        public Pagamento()
-        {
-            Parcelas = 1;
-        }
-        [XmlElementAttribute("bandeira")]
-        public PagamentoBandeira Bandeira { get; set; }
-        [XmlElementAttribute("produto")]
-        public PagamentoProduto Produto { get; set; }
-        [XmlElementAttribute("parcelas")]
-        public int Parcelas { get; set; }
     }
 
     [XmlType]

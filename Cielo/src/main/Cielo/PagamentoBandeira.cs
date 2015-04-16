@@ -5,25 +5,8 @@ using System.Xml.Serialization;
 
 namespace Cielo
 {
-    [Serializable]
     [XmlType]
-    public enum PagamentoProduto
-    {
-        [XmlEnumAttribute("1")]
-        CreditoAVista,
-
-        [XmlEnumAttribute("2")]
-        ParceladoLoja,
-
-        [XmlEnumAttribute("A")]
-        Debito
-    }
-
-    /// <summary>
-    ///     Bandeiras aceita pela Cielo
-    /// </summary>
     [Serializable]
-    [XmlType]    
     public enum PagamentoBandeira
     {
         /// <summary>
