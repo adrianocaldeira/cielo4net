@@ -6,10 +6,10 @@ using Cielo.Extensions;
 
 namespace Cielo
 {
-    [XmlType]
     [Serializable]
     [DebuggerStepThrough]
     [DesignerCategory("code")]
+    [XmlType(Namespace = "http://ecommerce.cbmp.com.br")]
     public class Order
     {
         public Order()
@@ -29,6 +29,9 @@ namespace Cielo
         [XmlElement("numero")]
         public string Number { get; set; }
 
+        [XmlElement("valor")]
+        public int Amount { get; set; }
+
         [XmlElement("moeda")]
         public Currency Currency { get; set; }
 
@@ -41,13 +44,10 @@ namespace Cielo
         [XmlElement("idioma")]
         public Language Language { get; set; }
 
-        [XmlElement("soft-descriptor")]
-        public string ShortDescription { get; set; }
-
         [XmlElement("taxa-embarque")]
         public int DepartureTax { get; set; }
 
-        [XmlElement("valor")]
-        public int Amount { get; set; }
+        [XmlElement("soft-descriptor")]
+        public string ShortDescription { get; set; }
     }
 }

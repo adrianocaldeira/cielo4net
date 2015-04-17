@@ -16,10 +16,10 @@ namespace Cielo
             Environment = configurationSection.Environment;
             
             if(Environment.ToLower().Equals("test"))
-                Url = "https://qasecommerce.cielo.com.br/servicos/ecommwsec.do";
+                Url = "https://qasecommerce.cielo.com.br";
 
             if (Environment.ToLower().Equals("production"))
-                Url = "https://ecommerce.cbmp.com.br/servicos/ecommwsec.do";
+                Url = "https://ecommerce.cbmp.com.br";
         }
 
         /// <summary>

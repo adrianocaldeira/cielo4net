@@ -4,20 +4,15 @@ using System.Xml.Serialization;
 namespace Cielo
 {
     [Serializable]
-    [XmlType(Namespace = "https://qasecommerce.cielo.com.br")]
-    [XmlRoot("requisicao-transacao", Namespace = "https://qasecommerce.cielo.com.br", IsNullable = false)]
-    public class TransactionRequest
+    [XmlType(Namespace = "http://ecommerce.cbmp.com.br")]
+    [XmlRoot("requisicao-transacao", Namespace = "http://ecommerce.cbmp.com.br", IsNullable = false)]
+    public class Transaction : Message
     {
-        public TransactionRequest()
+        public Transaction()
         {
-            Version = Version.V130;
+            Authentication = new Authentication();
+            AuthorizationType = TransactionAuthorizationType.AllowAuthenticatedAndUnauthenticated;
         }
-
-        [XmlAttribute("id")]
-        public string Id { get; set; }
-
-        [XmlAttribute("versao")]
-        public Version Version { get; set; }
 
         [XmlElement("dados-ec")]
         public Authentication Authentication { get; set; }
@@ -35,16 +30,9 @@ namespace Cielo
         public string ReturnUrl { get; set; }
 
         [XmlElement("autorizar")]
-        public TransactionRequestAuthorization AuthorizationType { get; set; }
+        public TransactionAuthorizationType AuthorizationType { get; set; }
 
         [XmlElement("capturar")]
         public bool Capture { get; set; }
-
-        [XmlElement("bin")]
-        public int Bin { get; set; }
-
-        [XmlElement("gerar-token")]
-        public bool GenerateToken { get; set; }
-
     }
 }

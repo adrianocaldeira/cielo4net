@@ -5,8 +5,8 @@ using System.Xml.Serialization;
 
 namespace Cielo
 {
-    [XmlType]
     [Serializable]
+    [XmlTypeAttribute(AnonymousType = true, Namespace = "http://ecommerce.cbmp.com.br")]
     public enum PaymentMethodBrand
     {
         /// <summary>

@@ -3,8 +3,8 @@ using System.Xml.Serialization;
 
 namespace Cielo
 {
-    [XmlType]
     [Serializable]
+    [XmlType(AnonymousType = true, Namespace = "http://ecommerce.cbmp.com.br")]
     public enum Language
     {
         [XmlEnum("PT")]

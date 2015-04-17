@@ -3,8 +3,8 @@ using System.Xml.Serialization;
 
 namespace Cielo
 {
-    [XmlType]
     [Serializable]
+    [XmlType(Namespace = "http://ecommerce.cbmp.com.br")]
     public class Card
     {
         [XmlElement("numero")]

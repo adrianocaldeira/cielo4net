@@ -3,17 +3,26 @@ using System.Xml.Serialization;
 
 namespace Cielo
 {
-    [XmlType]
+    /// <summary>
+    /// Código do produto
+    /// </summary>
     [Serializable]
+    [XmlType(AnonymousType = true, Namespace = "http://ecommerce.cbmp.com.br")]
     public enum PaymentMethodProduct
     {
-        [XmlEnum("1")]
-        CreditOneParcel,
+        /// <summary>
+        ///     Crédito à Vista
+        /// </summary>
+        [XmlEnum("1")] CreditOneParcel,
 
-        [XmlEnum("2")]
-        Installment,
+        /// <summary>
+        ///     Parcelado loja
+        /// </summary>
+        [XmlEnum("2")] Installment,
 
-        [XmlEnum("A")]
-        Debit
+        /// <summary>
+        ///     Débito
+        /// </summary>
+        [XmlEnum("A")] Debit
     }
 }
