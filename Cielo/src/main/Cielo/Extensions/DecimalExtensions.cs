@@ -5,9 +5,9 @@ namespace Cielo.Extensions
 {
     internal static class DecimalExtensions
     {
-        public static int SomenteNumeros(this decimal source)
+        public static int OnlyNumbers(this decimal source)
         {
-            return Convert.ToInt32(source.ToString(CultureInfo.InvariantCulture).SomenteNumeros());
+            return Convert.ToInt32(source.ToString(CultureInfo.InvariantCulture).OnlyNumbers());
         }
     }
 }

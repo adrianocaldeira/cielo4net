@@ -5,9 +5,9 @@ namespace Cielo
     /// <summary>
     /// Configuração Cielo
     /// </summary>
-    public static class Configuracao
+    public static class Configuration
     {
-        static Configuracao()
+        static Configuration()
         {
             var configurationSection = (ConfigurationSection)ConfigurationManager.GetSection("cielo");
 

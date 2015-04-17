@@ -5,9 +5,8 @@ namespace Cielo
 {
     [XmlType]
     [Serializable]
-    public enum Moeda
+    public enum Currency
     {
-        [XmlEnum("986")]
-        Real
+        [XmlEnum("986")] Real
     }
 }

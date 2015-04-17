@@ -7,7 +7,7 @@ namespace Cielo
 {
     [XmlType]
     [Serializable]
-    public enum PagamentoBandeira
+    public enum PaymentMethodBrand
     {
         /// <summary>
         ///     Visa

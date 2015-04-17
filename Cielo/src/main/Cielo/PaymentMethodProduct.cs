@@ -5,15 +5,15 @@ namespace Cielo
 {
     [XmlType]
     [Serializable]
-    public enum PagamentoProduto
+    public enum PaymentMethodProduct
     {
         [XmlEnum("1")]
-        CreditoAVista,
+        CreditOneParcel,
 
         [XmlEnum("2")]
-        ParceladoLoja,
+        Installment,
 
         [XmlEnum("A")]
-        Debito
+        Debit
     }
 }

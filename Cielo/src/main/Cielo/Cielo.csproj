@@ -41,18 +41,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Authentication.cs" />
-    <Compile Include="Pagamento.cs" />
-    <Compile Include="PagamentoBandeira.cs" />
-    <Compile Include="Configuracao.cs" />
+    <Compile Include="ObjectExtensions.cs" />
+    <Compile Include="TransactionRequestAuthorization.cs" />
+    <Compile Include="Card.cs" />
+    <Compile Include="CardSecurityCodeStatus.cs" />
+    <Compile Include="PaymentMethod.cs" />
+    <Compile Include="PaymentMethodBrand.cs" />
+    <Compile Include="Configuration.cs" />
     <Compile Include="ConfigurationSection.cs" />
     <Compile Include="Extensions\DecimalExtensions.cs" />
     <Compile Include="Extensions\StringExtensions.cs" />
     <Compile Include="Language.cs" />
-    <Compile Include="Moeda.cs" />
-    <Compile Include="PagamentoProduto.cs" />
-    <Compile Include="Pedido.cs" />
+    <Compile Include="Currency.cs" />
+    <Compile Include="PaymentMethodProduct.cs" />
+    <Compile Include="Order.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Transaction.cs" />
+    <Compile Include="TransactionRequest.cs" />
     <Compile Include="Version.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
