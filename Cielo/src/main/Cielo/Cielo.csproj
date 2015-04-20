@@ -20,6 +20,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Cielo.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -30,9 +31,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="RestSharp">
-      <HintPath>..\..\..\packages\RestSharp.105.0.1\lib\net4\RestSharp.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -44,10 +42,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Authentication.cs" />
+    <Compile Include="AuthorizeTransaction.cs" />
+    <Compile Include="CancellationTransaction.cs" />
+    <Compile Include="CaptureTransaction.cs" />
     <Compile Include="Client.cs" />
     <Compile Include="ErrorResult.cs" />
     <Compile Include="Message.cs" />
     <Compile Include="Request.cs" />
+    <Compile Include="RequestToken.cs" />
+    <Compile Include="RequestTransaction.cs" />
+    <Compile Include="Token.cs" />
+    <Compile Include="TokenData.cs" />
+    <Compile Include="TokenResult.cs" />
+    <Compile Include="TokenStatus.cs" />
     <Compile Include="TransactionResultAuthentication.cs" />
     <Compile Include="TransactionResultAuthorization.cs" />
     <Compile Include="TransactionResultCancellation.cs" />
@@ -73,9 +80,6 @@
     <Compile Include="TransactionResult.cs" />
     <Compile Include="TransactionResultStatus.cs" />
     <Compile Include="Version.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

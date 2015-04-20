@@ -7,6 +7,7 @@ namespace Cielo
     [XmlInclude(typeof(Transaction))]
     [XmlInclude(typeof(TransactionResult))]
     [XmlInclude(typeof(Request))]
+    [XmlInclude(typeof(RequestToken))]
     [XmlType(Namespace = "http://ecommerce.cbmp.com.br")]
     public class Message
     {

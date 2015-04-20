@@ -12,6 +12,7 @@ namespace Cielo
         {
             Authentication = new Authentication();
             AuthorizationType = TransactionAuthorizationType.AllowAuthenticatedAndUnauthenticated;
+            Capture = true;
         }
 
         [XmlElement("dados-ec")]
@@ -34,5 +35,38 @@ namespace Cielo
 
         [XmlElement("capturar")]
         public bool Capture { get; set; }
+
+        [XmlElement("campo-livre")]
+        public string FreeField { get; set; }
+
+        [XmlElement("bin")]
+        public int? Bin { get; set; }
+
+        [XmlElement("gerar-token")]
+        public bool? GenerateToken { get; set; }
+
+        [XmlText]
+        [XmlElement("avs")]
+        public string Avs { get; set; }
+
+        public bool ShouldSerializeFreeField()
+        {
+            return !string.IsNullOrWhiteSpace(FreeField);
+        }
+
+        public bool ShouldSerializeBin()
+        {
+            return Bin != null;
+        }
+
+        public bool ShouldSerializeGenerateToken()
+        {
+            return GenerateToken != null;
+        }
+
+        public bool ShouldSerializeAvs()
+        {
+            return !string.IsNullOrWhiteSpace(Avs);
+        }
     }
 }

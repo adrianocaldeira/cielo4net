@@ -4,6 +4,7 @@ namespace Cielo
     {
         public ErrorResult Error { get; set; }
         public TransactionResult Transaction { get; set; }
+        public TokenResult Token { get; set; }
 
         public bool IsError
         {
@@ -13,6 +14,11 @@ namespace Cielo
         public bool IsTransaction
         {
             get { return Transaction != null; }
+        }
+
+        public bool IsToken
+        {
+            get { return Token != null; }
         }
     }
 }

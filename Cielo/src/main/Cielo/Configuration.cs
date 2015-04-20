@@ -20,6 +20,8 @@ namespace Cielo
 
             if (Environment.ToLower().Equals("production"))
                 Url = "https://ecommerce.cbmp.com.br";
+
+            Url += "/servicos/ecommwsec.do";
         }
 
         /// <summary>

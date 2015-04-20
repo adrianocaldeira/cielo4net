@@ -8,6 +8,11 @@ namespace Cielo
     public enum CardSecurityCodeStatus
     {
         /// <summary>
+        ///     Nenhum
+        /// </summary>
+        None,
+
+        /// <summary>
         ///     Não informado
         /// </summary>
         [XmlEnum("0")] NotProvided,

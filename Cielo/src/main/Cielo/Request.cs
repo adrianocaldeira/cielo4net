@@ -1,12 +1,13 @@
 ﻿using System;
-using System.ComponentModel;
-using System.Diagnostics;
 using System.Xml.Serialization;
 
 namespace Cielo
 {
     [Serializable]
     [XmlInclude(typeof(RequestTransaction))]
+    [XmlInclude(typeof(AuthorizeTransaction))]
+    [XmlInclude(typeof(CancellationTransaction))]
+    [XmlInclude(typeof(CaptureTransaction))]
     [XmlType(Namespace = "http://ecommerce.cbmp.com.br")]
     public class Request : Message
     {
@@ -15,17 +16,16 @@ namespace Cielo
             Authentication = new Authentication();
         }
 
+        /// <summary>
+        /// Identificador da transação.
+        /// </summary>
         [XmlElement("tid")]
         public string Tid { get; set; }
 
+        /// <summary>
+        /// Autenticação
+        /// </summary>
         [XmlElement("dados-ec")]
         public Authentication Authentication { get; set; }
-    }
-
-    [Serializable]
-    [XmlTypeAttribute(Namespace = "http://ecommerce.cbmp.com.br")]
-    [XmlRootAttribute("requisicao-consulta", Namespace = "http://ecommerce.cbmp.com.br", IsNullable = false)]
-    public class RequestTransaction : Request
-    {
     }
 }
