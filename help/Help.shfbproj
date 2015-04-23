@@ -25,8 +25,8 @@
     <CppCommentsFixup>False</CppCommentsFixup>
     <CleanIntermediates>True</CleanIntermediates>
     <DocumentationSources>
-      <DocumentationSource sourceFile="..\src\main\Cielo4Net\bin\Release\Cielo4Net.dll" xmlns="" />
-    </DocumentationSources>
+      <DocumentationSource sourceFile="..\src\main\Cielo4Net\bin\Release\Cielo4Net.dll" />
+<DocumentationSource sourceFile="..\src\main\Cielo4Net\bin\Release\Cielo4Net.xml" /></DocumentationSources>
     <MaximumGroupParts>2</MaximumGroupParts>
     <NamespaceGrouping>False</NamespaceGrouping>
     <SyntaxFilters>Standard</SyntaxFilters>
