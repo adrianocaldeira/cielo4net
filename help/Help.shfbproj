@@ -26,7 +26,8 @@
     <CleanIntermediates>True</CleanIntermediates>
     <DocumentationSources>
       <DocumentationSource sourceFile="..\src\main\Cielo4Net\bin\Release\Cielo4Net.dll" />
-<DocumentationSource sourceFile="..\src\main\Cielo4Net\bin\Release\Cielo4Net.xml" /></DocumentationSources>
+      <DocumentationSource sourceFile="..\src\main\Cielo4Net\bin\Release\Cielo4Net.xml" />
+    </DocumentationSources>
     <MaximumGroupParts>2</MaximumGroupParts>
     <NamespaceGrouping>False</NamespaceGrouping>
     <SyntaxFilters>Standard</SyntaxFilters>
@@ -41,8 +42,22 @@
     <ContentPlacement>AboveNamespaces</ContentPlacement>
     <NamespaceSummaries>
       <NamespaceSummaryItem name="(global)" isDocumented="True" xmlns="" />
-<NamespaceSummaryItem name="Cielo4Net" isDocumented="True" xmlns="">Biblioteca de integração com a solução WebService da Cielo. Maiores informações e detalhamento da solução da Cielo acesse o endereço https://www.cielo.com.br/ecommerce.</NamespaceSummaryItem></NamespaceSummaries>
+      <NamespaceSummaryItem name="Cielo4Net" isDocumented="True" xmlns="">Biblioteca de integração com a solução WebService da Cielo. Maiores informações e detalhamento da solução da Cielo acesse o endereço https://www.cielo.com.br/ecommerce.</NamespaceSummaryItem>
+    </NamespaceSummaries>
     <ProjectSummary>Biblioteca de integra&amp;#231%3b&amp;#227%3bo com a solu&amp;#231%3b&amp;#227%3bo WebService da Cielo. Maiores informa&amp;#231%3b&amp;#245%3bes e detalhamento da solu&amp;#231%3b&amp;#227%3bo da Cielo acesse o endere&amp;#231%3bo &amp;lt%3ba href=&amp;quot%3bhttps://www.cielo.com.br/ecommerce&amp;quot%3b&amp;gt%3bhttps://www.cielo.com.br/ecommerce&amp;lt%3b/a&amp;gt%3b.</ProjectSummary>
+    <PlugInConfigurations />
+    <HelpAttributes />
+    <HelpFileVersion>1.0.0.0</HelpFileVersion>
+    <PlugInNamespaces>ms.vsipcc+, ms.vsexpresscc+</PlugInNamespaces>
+    <CollectionTocStyle>Hierarchical</CollectionTocStyle>
+    <MSHelp2SdkLinkType>Msdn</MSHelp2SdkLinkType>
+    <IncludeStopWordList>True</IncludeStopWordList>
+    <WebsiteSdkLinkType>Msdn</WebsiteSdkLinkType>
+    <HtmlSdkLinkType>Msdn</HtmlSdkLinkType>
+    <IncludeFavorites>False</IncludeFavorites>
+    <BinaryTOC>True</BinaryTOC>
+    <FooterText>
+    </FooterText>
   </PropertyGroup>
   <!-- There are no properties for these groups.  AnyCPU needs to appear in order for Visual Studio to perform
 			 the build.  The others are optional common platform types that may appear. -->

@@ -23,7 +23,7 @@
 var tocWidth;
 
 // Search method (0 = To be determined, 1 = ASPX, 2 = PHP, anything else = client-side script
-var searchMethod = 1;
+var searchMethod = 0;
 
 // Table of contents script
 
