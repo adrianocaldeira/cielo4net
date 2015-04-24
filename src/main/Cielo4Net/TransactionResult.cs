@@ -66,11 +66,5 @@ namespace Cielo4Net
         /// </summary>
         [XmlElement("cancelamentos")]
         public TransactionResultCancellation Cancellation { get; set; }
-
-        /// <summary>
-        ///     Recupera ou define XML de retorno.
-        /// </summary>
-        [XmlIgnore]
-        public string Xml { get; set; }
     }
 }

@@ -1,3 +1,5 @@
+using System.Xml.Serialization;
+
 namespace Cielo4Net
 {
     /// <summary>
@@ -19,6 +21,12 @@ namespace Cielo4Net
         ///     Recupera ou define <see cref="TokenResult" />.
         /// </summary>
         public TokenResult Token { get; set; }
+        
+        /// <summary>
+        ///     Recupera ou define XML de retorno.
+        /// </summary>
+        [XmlIgnore]
+        public string Xml { get; set; }
 
         /// <summary>
         ///     É um erro.

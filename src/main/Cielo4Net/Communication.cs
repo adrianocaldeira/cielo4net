@@ -3,6 +3,7 @@ using System.IO;
 using System.Net;
 using System.Text;
 using Cielo4Net.Extensions;
+using log4net;
 
 namespace Cielo4Net
 {
@@ -17,6 +18,7 @@ namespace Cielo4Net
         public Communication()
         {
             Encoding = Encoding.GetEncoding("iso-8859-1");
+            Log = LogManager.GetLogger("Cielo4Net");
         }
 
         /// <summary>
@@ -34,6 +36,11 @@ namespace Cielo4Net
         ///     Recupera ou define o encoding.
         /// </summary>
         public Encoding Encoding { get; private set; }
+
+        /// <summary>
+        ///     Recupera ou define <see cref="ILog" />
+        /// </summary>
+        public ILog Log { get; set; }
 
         /// <summary>
         ///     Captura transação através do identificador da transação. O valor a ser caputrado será total.
@@ -291,6 +298,8 @@ namespace Cielo4Net
             var data = string.Format("mensagem={0}", xml);
             string content;
 
+            Log.Debug(string.Format("Xml enviado:\n{0}", xml));
+
             request.ContentLength = Encoding.GetBytes(data).Length;
             request.ContentType = string.Format("application/x-www-form-urlencoded; charset={0}", Encoding.WebName);
             request.Method = "POST";
@@ -324,19 +333,27 @@ namespace Cielo4Net
 
             if (response.StatusCode != HttpStatusCode.OK)
             {
-                var message = string.Format("Error sending message.\n\nContent:\n{0}\n", response);
+                var message = string.Format("Erro ao enviar mensagem.\n\nContent:\n{0}\n", response);
+
+                Log.Debug(message);
 
                 throw new Exception(message);
             }
 
+            result.Xml = content;
+
+            Log.Debug(string.Format("Xml recebido:\n{0}", result.Xml));
+
             if (content.Contains("</transacao>"))
             {
                 result.Transaction = content.ToObject<TransactionResult>(Encoding);
-                result.Transaction.Xml = content;
             }
             else if (content.Contains("</erro>"))
             {
                 result.Error = content.ToObject<ErrorResult>(Encoding);
+
+                Log.Debug("Retorno de erro proveniente da Cielo");
+                Log.Debug(string.Format("Código: {0}\nMensage: {1}", result.Error.Code, result.Error.Message));
             }
             else if (content.Contains("</retorno-token>"))
             {
