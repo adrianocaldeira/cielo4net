@@ -39,3 +39,5 @@ Para visualizar o processo de comunicação de envio e retorno no Output do Visual
 		<appender-ref ref="Trace" />
 	</logger>
 </log4net>
+
+Maiores informações acesse https://github.com/adrianocaldeira/cielo4net.
