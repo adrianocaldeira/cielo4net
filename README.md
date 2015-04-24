@@ -20,3 +20,7 @@ Para instalar, execute o seguinte comando no <a href="http://docs.nuget.org/docs
 
 - Versão 1.0.0
 	- Primeira versão lançada no NuGet.
+	
+- Versão 1.0.1
+	- Implementação de log de comunicação.	
+	- Publicação de versão no NuGet
