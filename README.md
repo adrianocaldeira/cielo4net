@@ -24,3 +24,6 @@ Para instalar, execute o seguinte comando no <a href="http://docs.nuget.org/docs
 - Versão 1.0.1
 	- Implementação de log de comunicação.	
 	- Publicação de versão no NuGet
+
+- Versão 1.0.2
+	- Inclusão da propriedade Token (informações do cartão) na classe TransactionResult. 	
