@@ -66,5 +66,11 @@ namespace Cielo4Net
         /// </summary>
         [XmlElement("cancelamentos")]
         public TransactionResultCancellation Cancellation { get; set; }
+
+        /// <summary>
+        ///     Recupera ou define <see cref="Token" />.
+        /// </summary>
+        [XmlElement("token")]
+        public Token Token { get; set; }
     }
 }
