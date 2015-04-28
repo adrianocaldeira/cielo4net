@@ -35,7 +35,7 @@
     <RootNamespaceContainer>False</RootNamespaceContainer>
     <PresentationStyle>VS2013</PresentationStyle>
     <Preliminary>False</Preliminary>
-    <NamingMethod>Guid</NamingMethod>
+    <NamingMethod>MemberName</NamingMethod>
     <HelpTitle>Biblioteca de integra&amp;#231%3b&amp;#227%3bo com a solu&amp;#231%3b&amp;#227%3bo WebService da Cielo.</HelpTitle>
     <FeedbackEMailLinkText>adcaldeira%40outlook.com</FeedbackEMailLinkText>
     <FeedbackEMailAddress>adcaldeira%40outlook.com</FeedbackEMailAddress>

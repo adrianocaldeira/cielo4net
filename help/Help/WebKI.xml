@@ -162,6 +162,7 @@
   <HelpKINode Title="Communication.Encoding property" Url="html/0737b58d-0408-5dca-8638-06bcece71396.htm" />
   <HelpKINode Title="Communication.GetToken method" Url="html/0549c1da-3649-4182-cefa-375e515b30dd.htm" />
   <HelpKINode Title="Communication.GetTransaction method" Url="html/cedd14e7-8a08-852c-d0cd-15527a3e796a.htm" />
+  <HelpKINode Title="Communication.Log property" Url="html/322a06d9-4fb0-8ddb-39c2-aef81302f141.htm" />
   <HelpKINode Title="CommunicationResult class">
     <HelpKINode Title="CommunicationResult Class" Url="html/950a2166-17d8-fdc9-32e1-9c7fe90b1381.htm" />
     <HelpKINode Title="about CommunicationResult class" Url="html/950a2166-17d8-fdc9-32e1-9c7fe90b1381.htm" />
@@ -174,6 +175,8 @@
   <HelpKINode Title="CommunicationResult.IsError property" Url="html/0e8992d1-35d3-2bd4-2717-47c6d5a2797c.htm" />
   <HelpKINode Title="CommunicationResult.IsToken property" Url="html/6f134696-71d6-9225-fb5f-4224ba3df6d4.htm" />
   <HelpKINode Title="CommunicationResult.IsTransaction property" Url="html/ae4ea85e-fcd4-b2b7-8939-aeb95a67d6d7.htm" />
+  <HelpKINode Title="CommunicationResult.ReceivedXml property" Url="html/79dc2dfe-9049-2c34-c80e-28a771ddf9f5.htm" />
+  <HelpKINode Title="CommunicationResult.SentXml property" Url="html/3fc11c40-96e3-8a1b-c964-8879d41d8d1f.htm" />
   <HelpKINode Title="CommunicationResult.Token property" Url="html/f9df8413-9582-4853-0ffb-69269bf3a88b.htm" />
   <HelpKINode Title="CommunicationResult.Transaction property" Url="html/d431b152-53d7-9a33-3e93-e0853977d10d.htm" />
   <HelpKINode Title="Configuration class">
@@ -259,6 +262,7 @@
   </HelpKINode>
   <HelpKINode Title="Language enumeration" Url="html/8b4edc59-605a-c998-28d5-78b4fda72205.htm" />
   <HelpKINode Title="Language property" Url="html/556ca429-08ea-73b3-54db-11f9ffec6d22.htm" />
+  <HelpKINode Title="Log property" Url="html/322a06d9-4fb0-8ddb-39c2-aef81302f141.htm" />
   <HelpKINode Title="Lr property" Url="html/d3dc0c0c-106c-d84e-6d9d-e036273ce76b.htm" />
   <HelpKINode Title="Mastercard enumeration member" Url="html/b66c821b-5437-8ec8-9ce6-41777e6d9b7c.htm" />
   <HelpKINode Title="Message class">
@@ -334,6 +338,7 @@
   <HelpKINode Title="Product property" Url="html/38e1935c-bfe2-1ae5-c438-753e19e0213a.htm" />
   <HelpKINode Title="Provided enumeration member" Url="html/65a3b1d6-591d-6c1a-03ad-227b76235217.htm" />
   <HelpKINode Title="Real enumeration member" Url="html/5207657b-b177-0b34-ebe9-099260b49c08.htm" />
+  <HelpKINode Title="ReceivedXml property" Url="html/79dc2dfe-9049-2c34-c80e-28a771ddf9f5.htm" />
   <HelpKINode Title="RecurringTransaction enumeration member" Url="html/171d2fdf-6229-9dfc-7dfc-4e9310ad26ac.htm" />
   <HelpKINode Title="Request class">
     <HelpKINode Title="Request Class" Url="html/1f604782-16f3-17c9-bee1-cdd824049517.htm" />
@@ -366,6 +371,7 @@
   <HelpKINode Title="ReturnUrl property" Url="html/64ed7a5f-3d98-5071-eff9-2a90b3efdecc.htm" />
   <HelpKINode Title="SecurityCode property" Url="html/6fe071be-01f8-f79b-396c-455756c6735a.htm" />
   <HelpKINode Title="SecurityCodeStatus property" Url="html/1538f778-6df4-d32c-4e30-c82ba95d5d65.htm" />
+  <HelpKINode Title="SentXml property" Url="html/3fc11c40-96e3-8a1b-c964-8879d41d8d1f.htm" />
   <HelpKINode Title="ShortDescription property" Url="html/0c34cfb2-cf6e-b7a4-8e73-22ba99873d08.htm" />
   <HelpKINode Title="ShouldSerializeAmount method">
     <HelpKINode Title="CancellationTransaction.ShouldSerializeAmount Method " Url="html/bffea8a7-835d-a0fe-7d32-db86a9790468.htm" />
@@ -400,6 +406,7 @@
     <HelpKINode Title="Card.Token Property " Url="html/34f7d6ef-e24d-cc55-b8a8-b7c2319d060a.htm" />
     <HelpKINode Title="CommunicationResult.Token Property " Url="html/f9df8413-9582-4853-0ffb-69269bf3a88b.htm" />
     <HelpKINode Title="TokenResult.Token Property " Url="html/db14112d-09c5-6de3-d745-1286a5a98f1c.htm" />
+    <HelpKINode Title="TransactionResult.Token Property " Url="html/2a4cbd4e-7467-a275-e1ec-8c3d008261c3.htm" />
   </HelpKINode>
   <HelpKINode Title="Token.Data property" Url="html/71cc1bb7-3b2c-e45e-5a47-d4576251dc12.htm" />
   <HelpKINode Title="Token.Token constructor" Url="html/cf6f3aff-657d-9972-0003-aa3f9815ffac.htm" />
@@ -464,9 +471,9 @@
   <HelpKINode Title="TransactionResult.PaymentMethod property" Url="html/a92feb45-7cd9-b925-0551-a4b346e21002.htm" />
   <HelpKINode Title="TransactionResult.Status property" Url="html/a8055d7f-3bf8-2303-a1b8-ef336da599ac.htm" />
   <HelpKINode Title="TransactionResult.Tid property" Url="html/9af84441-497a-887a-234f-c4e3e8371808.htm" />
+  <HelpKINode Title="TransactionResult.Token property" Url="html/2a4cbd4e-7467-a275-e1ec-8c3d008261c3.htm" />
   <HelpKINode Title="TransactionResult.TransactionResult constructor" Url="html/d0c9dad7-4d97-c86c-1d54-cc2f2bec0597.htm" />
   <HelpKINode Title="TransactionResult.UrlAuthentication property" Url="html/287af0d3-1b5e-d84c-7cf6-c0ad84f91505.htm" />
-  <HelpKINode Title="TransactionResult.Xml property" Url="html/c336ba27-8b0d-ecd3-7f82-88a6c7d79706.htm" />
   <HelpKINode Title="TransactionResultAuthentication class">
     <HelpKINode Title="TransactionResultAuthentication Class" Url="html/c001374b-451e-33f4-05ac-417ef975e623.htm" />
     <HelpKINode Title="about TransactionResultAuthentication class" Url="html/c001374b-451e-33f4-05ac-417ef975e623.htm" />
@@ -541,5 +548,4 @@
   <HelpKINode Title="Version enumeration" Url="html/bfb5cb25-9c3d-52f4-a01f-a73bbd9ac213.htm" />
   <HelpKINode Title="Version property" Url="html/98653489-5da7-437e-504d-1b89ffe0f15b.htm" />
   <HelpKINode Title="Visa enumeration member" Url="html/b66c821b-5437-8ec8-9ce6-41777e6d9b7c.htm" />
-  <HelpKINode Title="Xml property" Url="html/c336ba27-8b0d-ecd3-7f82-88a6c7d79706.htm" />
 </HelpKI>

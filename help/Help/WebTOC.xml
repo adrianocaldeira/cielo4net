@@ -1,49 +1,49 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpTOC>
 
-  <HelpTOCNode Id="991eccbf-4f52-4b07-b0c5-80a2ba0e9c1c" Title="Cielo4Net" Url="html/dd6e5809-f742-42de-6076-f27c1e37a4ea.htm">
-    <HelpTOCNode Id="176e3d6d-a3f2-4ab6-b6e8-52263eab566f" Title="Authentication Class" Url="html/bb7c6af0-dbff-d16d-a586-2ac26359ecc3.htm">
+  <HelpTOCNode Id="ff550b55-ecdc-4a77-abdc-2926eba16ca1" Title="Cielo4Net" Url="html/dd6e5809-f742-42de-6076-f27c1e37a4ea.htm">
+    <HelpTOCNode Id="8321ed79-d8d8-49c0-a422-8d0ad645325d" Title="Authentication Class" Url="html/bb7c6af0-dbff-d16d-a586-2ac26359ecc3.htm">
       <HelpTOCNode Title="Authentication Constructor " Url="html/99542946-4d92-d884-c002-945abb9bfae2.htm" />
       <HelpTOCNode Title="Authentication Methods" Url="html/dc6af2ed-55ba-0304-d26e-d6d87832b669.htm" />
-      <HelpTOCNode Id="c0631b7f-3772-4005-a222-40c14a637cda" Title="Authentication Properties" Url="html/2fa208b6-a337-b69b-76f8-c78005f28863.htm">
+      <HelpTOCNode Id="4f3cc858-818a-48f2-a92f-5e403e3bedd1" Title="Authentication Properties" Url="html/2fa208b6-a337-b69b-76f8-c78005f28863.htm">
         <HelpTOCNode Title="Key Property " Url="html/77e2982c-5a14-9ebb-6789-7d66d35d137d.htm" />
         <HelpTOCNode Title="Number Property " Url="html/e9f8e805-d661-89f6-d523-d74c0fbd2f20.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="7aa7a813-758c-42fb-a2e1-ee8209fd7544" Title="AuthorizeTransaction Class" Url="html/2f037424-bf0c-6658-9a5d-9f22b7feef51.htm">
+    <HelpTOCNode Id="75cd4e6e-1196-4cf9-b987-b04a54b1da42" Title="AuthorizeTransaction Class" Url="html/2f037424-bf0c-6658-9a5d-9f22b7feef51.htm">
       <HelpTOCNode Title="AuthorizeTransaction Constructor " Url="html/fe870366-f5ec-ca79-6d2c-8222bc5edf4a.htm" />
       <HelpTOCNode Title="AuthorizeTransaction Methods" Url="html/da41bc33-4836-676c-d08d-4608e5b842ff.htm" />
       <HelpTOCNode Title="AuthorizeTransaction Properties" Url="html/2089e755-8031-5f8e-4ab2-68b9f388d8df.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="e22374ba-2438-4219-a942-5795eb36624c" Title="CancellationTransaction Class" Url="html/719bb418-7cc5-91a3-46b7-1b8f8fadfc37.htm">
+    <HelpTOCNode Id="83cc8aaa-4dac-4e51-b62f-d4516c5ef387" Title="CancellationTransaction Class" Url="html/719bb418-7cc5-91a3-46b7-1b8f8fadfc37.htm">
       <HelpTOCNode Title="CancellationTransaction Constructor " Url="html/d4e46e26-34a2-3880-8e70-27ad4b59bd27.htm" />
-      <HelpTOCNode Id="724cc339-8ab0-40f0-9866-5ff07dc00641" Title="CancellationTransaction Methods" Url="html/2cfd9f42-7c30-ec0e-5f47-b61fa3443602.htm">
+      <HelpTOCNode Id="3e87981a-bd88-4533-a4c5-76ba9f138eba" Title="CancellationTransaction Methods" Url="html/2cfd9f42-7c30-ec0e-5f47-b61fa3443602.htm">
         <HelpTOCNode Title="ShouldSerializeAmount Method " Url="html/bffea8a7-835d-a0fe-7d32-db86a9790468.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="a0c591c1-cf8e-4eab-b861-78f225e5e1ba" Title="CancellationTransaction Properties" Url="html/c36446d7-7024-92ca-8f9e-f6f4babca5d9.htm">
+      <HelpTOCNode Id="f304a9ac-c7fd-4461-a1d1-83ce77e60b5a" Title="CancellationTransaction Properties" Url="html/c36446d7-7024-92ca-8f9e-f6f4babca5d9.htm">
         <HelpTOCNode Title="Amount Property " Url="html/cd9e7060-5797-1099-447c-0de8dc8e3762.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="2592cb05-6249-4673-9ace-36e504f089f0" Title="CaptureTransaction Class" Url="html/a162308b-a7c5-3556-9739-fea4161d95fa.htm">
+    <HelpTOCNode Id="db1b640b-b26e-48e5-b2b3-714548a7b25b" Title="CaptureTransaction Class" Url="html/a162308b-a7c5-3556-9739-fea4161d95fa.htm">
       <HelpTOCNode Title="CaptureTransaction Constructor " Url="html/608c808e-aeb6-a614-0862-719f896b89ce.htm" />
-      <HelpTOCNode Id="546af3f0-43b0-43d1-9820-26e2851ffc50" Title="CaptureTransaction Methods" Url="html/40ca7dba-6bd5-58c1-9a94-019f9d1994ba.htm">
+      <HelpTOCNode Id="f1c539da-e81b-4178-8f6b-5317ce8cd1a7" Title="CaptureTransaction Methods" Url="html/40ca7dba-6bd5-58c1-9a94-019f9d1994ba.htm">
         <HelpTOCNode Title="ShouldSerializeAmount Method " Url="html/cafc7060-d783-5d81-2362-ed292fef30eb.htm" />
         <HelpTOCNode Title="ShouldSerializeDepartureTax Method " Url="html/d7cc1d52-5fdd-da83-31e4-99f2cce1c855.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="10c99b8f-5527-444f-803c-1ec7884f20e4" Title="CaptureTransaction Properties" Url="html/269699c5-1635-a03e-5fd9-74e15a1e4a6e.htm">
+      <HelpTOCNode Id="71e89c80-aa05-4fc7-9170-4fad26f66072" Title="CaptureTransaction Properties" Url="html/269699c5-1635-a03e-5fd9-74e15a1e4a6e.htm">
         <HelpTOCNode Title="Amount Property " Url="html/5c4e2254-1fef-3ac0-3c70-711f5d9ec84c.htm" />
         <HelpTOCNode Title="DepartureTax Property " Url="html/5f59ed1c-3e24-8bd8-52c2-4be0996ffdee.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="7d94d1ff-bd8b-4d8f-8a90-267e3e59b982" Title="Card Class" Url="html/65b21ed0-c6a3-b0bc-2b75-17b71a72e911.htm">
+    <HelpTOCNode Id="75da6cba-0611-4bea-b145-1a76b220071c" Title="Card Class" Url="html/65b21ed0-c6a3-b0bc-2b75-17b71a72e911.htm">
       <HelpTOCNode Title="Card Constructor " Url="html/08839c1b-d6bf-24fc-be62-d3cfe1018c44.htm" />
-      <HelpTOCNode Id="9723a504-ed75-4232-b71f-54071673e517" Title="Card Methods" Url="html/bea9a9de-698c-dad2-41f6-657d5ddad025.htm">
+      <HelpTOCNode Id="dd5c8f1b-454f-453d-a2ac-4271cc5557b9" Title="Card Methods" Url="html/bea9a9de-698c-dad2-41f6-657d5ddad025.htm">
         <HelpTOCNode Title="ShouldSerializeName Method " Url="html/810e9c82-29b1-94ff-1b9b-907f825ff482.htm" />
         <HelpTOCNode Title="ShouldSerializeSecurityCode Method " Url="html/bf176496-55ec-1987-5c96-bcb7cd79c9e1.htm" />
         <HelpTOCNode Title="ShouldSerializeSecurityCodeStatus Method " Url="html/9d8cfa2f-9ae5-0d71-f265-5b058f232869.htm" />
         <HelpTOCNode Title="ShouldSerializeToken Method " Url="html/6bd8d9c9-430f-bd25-91f2-937f3c554352.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="4d8a62e5-44de-40de-b3d9-f2e1d1f429d9" Title="Card Properties" Url="html/32a11f47-25eb-3fcc-6655-5164e3f76c42.htm">
+      <HelpTOCNode Id="53fe48b4-77fa-45fc-9864-c294154ca192" Title="Card Properties" Url="html/32a11f47-25eb-3fcc-6655-5164e3f76c42.htm">
         <HelpTOCNode Title="Expiration Property " Url="html/7e0101e7-66a9-5b0c-453a-030085f42c1e.htm" />
         <HelpTOCNode Title="Name Property " Url="html/1340f784-df58-574d-a8b7-48a2a7c208a3.htm" />
         <HelpTOCNode Title="Number Property " Url="html/d0c412df-2f67-cb6e-1b47-9ee6a7f8ab8a.htm" />
@@ -53,92 +53,95 @@
       </HelpTOCNode>
     </HelpTOCNode>
     <HelpTOCNode Title="CardSecurityCodeStatus Enumeration" Url="html/65a3b1d6-591d-6c1a-03ad-227b76235217.htm" />
-    <HelpTOCNode Id="08f19e78-6d8f-486d-b251-afb304965ed9" Title="Communication Class" Url="html/266b558f-404c-5705-3723-13f33e1fd389.htm">
-      <HelpTOCNode Id="1f335388-d2fe-423a-9241-6729a3778b72" Title="Communication Constructor " Url="html/922fdcd3-297b-0bfb-47a1-9d513bf88ce8.htm">
+    <HelpTOCNode Id="21478712-d352-4094-8bee-039bdb59df95" Title="Communication Class" Url="html/266b558f-404c-5705-3723-13f33e1fd389.htm">
+      <HelpTOCNode Id="eb98d8f9-2a30-4430-8186-ceb0bcfc8248" Title="Communication Constructor " Url="html/922fdcd3-297b-0bfb-47a1-9d513bf88ce8.htm">
         <HelpTOCNode Title="Communication Constructor " Url="html/13f9c8eb-9e94-1310-b877-e55289c4f901.htm" />
         <HelpTOCNode Title="Communication Constructor (Encoding)" Url="html/715d37d9-f2d8-f10f-bb10-cf44831b8635.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="27e4d1d0-3c7d-409e-a7f2-8bd97989227e" Title="Communication Methods" Url="html/c5c3bd02-dd24-9726-b3a8-8e12fddb4df3.htm">
+      <HelpTOCNode Id="4b0c0d60-2260-4f6f-8c97-065f79cdc431" Title="Communication Methods" Url="html/c5c3bd02-dd24-9726-b3a8-8e12fddb4df3.htm">
         <HelpTOCNode Title="AuthorizeTransaction Method " Url="html/08004c93-5c51-f0b9-4ecb-f867f6dbcfec.htm" />
-        <HelpTOCNode Id="285ec2c3-3a60-46da-8d2f-c8f5dbb4bb35" Title="CancelTransaction Method " Url="html/b74decf3-f572-8fb6-d885-f9d5fdb012c2.htm">
+        <HelpTOCNode Id="23b1f676-a948-41e4-b05d-d58e7d771ae2" Title="CancelTransaction Method " Url="html/b74decf3-f572-8fb6-d885-f9d5fdb012c2.htm">
           <HelpTOCNode Title="CancelTransaction Method (String)" Url="html/7f37c7f2-4d91-3523-0934-121497803a6f.htm" />
           <HelpTOCNode Title="CancelTransaction Method (String, Decimal)" Url="html/e797f06e-9cd5-f618-9d81-717134ddc362.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="aa41c83b-0545-4d9a-b27b-af1367953832" Title="CaptureTransaction Method " Url="html/43de7da3-bdac-5e0f-a0d1-bd6c6ceb49a9.htm">
+        <HelpTOCNode Id="1af3e213-092f-4f08-9209-187748bb67e8" Title="CaptureTransaction Method " Url="html/43de7da3-bdac-5e0f-a0d1-bd6c6ceb49a9.htm">
           <HelpTOCNode Title="CaptureTransaction Method (String)" Url="html/466d9195-d5bf-802e-63f2-cdc8c5808d9c.htm" />
           <HelpTOCNode Title="CaptureTransaction Method (String, Decimal)" Url="html/fd008be6-0fbf-4ec9-e0ba-106ad02a7ba3.htm" />
           <HelpTOCNode Title="CaptureTransaction Method (String, Decimal, Decimal)" Url="html/e2016e3f-dc25-c501-4471-8cca3e9652ab.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="5b77a06b-8306-4bd7-89dc-a7e124a3ad2c" Title="CreateTransaction Method " Url="html/782477d3-ae4e-08cc-1601-4189ff5af62c.htm">
+        <HelpTOCNode Id="3c29d6e3-f84f-42aa-bc19-8e584b5889bd" Title="CreateTransaction Method " Url="html/782477d3-ae4e-08cc-1601-4189ff5af62c.htm">
           <HelpTOCNode Title="CreateTransaction Method (Transaction)" Url="html/dac72a9c-0ae2-dc92-4b63-f4c3472bb7e8.htm" />
           <HelpTOCNode Title="CreateTransaction Method (Order, PaymentMethod, String)" Url="html/4ba29aeb-dbe8-0750-ba47-89a955fc2365.htm" />
           <HelpTOCNode Title="CreateTransaction Method (Order, PaymentMethodBrand, String)" Url="html/b9717008-b1de-d72e-948c-d0af96c2f876.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="ffda664d-2e6c-448d-ae4e-62633162633d" Title="GetToken Method " Url="html/0549c1da-3649-4182-cefa-375e515b30dd.htm">
+        <HelpTOCNode Id="6b32a5e1-68e8-4c79-ae5a-868f8b9cd8a0" Title="GetToken Method " Url="html/0549c1da-3649-4182-cefa-375e515b30dd.htm">
           <HelpTOCNode Title="GetToken Method (Card)" Url="html/422fc9a7-66f3-e4c4-26e2-2c54460550a7.htm" />
           <HelpTOCNode Title="GetToken Method (Int64, Int32)" Url="html/305108d0-8d9b-edcd-7278-e6ed14b21bd8.htm" />
           <HelpTOCNode Title="GetToken Method (Int64, Int32, String)" Url="html/4d3b946c-48d8-4632-d74a-ee6919510fdc.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="GetTransaction Method " Url="html/cedd14e7-8a08-852c-d0cd-15527a3e796a.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="df4b5fd8-c184-4316-8622-a4383676fde9" Title="Communication Properties" Url="html/fee03f94-32e3-5562-50e1-ed2aff92925b.htm">
+      <HelpTOCNode Id="fa7d475c-3760-446e-8ad1-69e6bbd2b527" Title="Communication Properties" Url="html/fee03f94-32e3-5562-50e1-ed2aff92925b.htm">
         <HelpTOCNode Title="Encoding Property " Url="html/0737b58d-0408-5dca-8638-06bcece71396.htm" />
+        <HelpTOCNode Title="Log Property " Url="html/322a06d9-4fb0-8ddb-39c2-aef81302f141.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="1f91017b-97a3-4697-a371-4fae91821822" Title="CommunicationResult Class" Url="html/950a2166-17d8-fdc9-32e1-9c7fe90b1381.htm">
+    <HelpTOCNode Id="ec86070b-b572-4321-be48-5b122132587e" Title="CommunicationResult Class" Url="html/950a2166-17d8-fdc9-32e1-9c7fe90b1381.htm">
       <HelpTOCNode Title="CommunicationResult Constructor " Url="html/6505fc7c-8e42-827c-b7f7-f08b5c853bb3.htm" />
       <HelpTOCNode Title="CommunicationResult Methods" Url="html/a3e97114-9e95-c2f8-b137-4a36bc46f81e.htm" />
-      <HelpTOCNode Id="b1636990-487c-4d07-b67a-d76005890bf9" Title="CommunicationResult Properties" Url="html/03324ab7-4858-4643-37a3-0a3cd08af9f7.htm">
+      <HelpTOCNode Id="1b3b5a8b-5204-4cf0-827e-732426ccf2b4" Title="CommunicationResult Properties" Url="html/03324ab7-4858-4643-37a3-0a3cd08af9f7.htm">
         <HelpTOCNode Title="Error Property " Url="html/51b54f39-57cd-8bc6-b074-50281aa62edb.htm" />
         <HelpTOCNode Title="IsError Property " Url="html/0e8992d1-35d3-2bd4-2717-47c6d5a2797c.htm" />
         <HelpTOCNode Title="IsToken Property " Url="html/6f134696-71d6-9225-fb5f-4224ba3df6d4.htm" />
         <HelpTOCNode Title="IsTransaction Property " Url="html/ae4ea85e-fcd4-b2b7-8939-aeb95a67d6d7.htm" />
+        <HelpTOCNode Title="ReceivedXml Property " Url="html/79dc2dfe-9049-2c34-c80e-28a771ddf9f5.htm" />
+        <HelpTOCNode Title="SentXml Property " Url="html/3fc11c40-96e3-8a1b-c964-8879d41d8d1f.htm" />
         <HelpTOCNode Title="Token Property " Url="html/f9df8413-9582-4853-0ffb-69269bf3a88b.htm" />
         <HelpTOCNode Title="Transaction Property " Url="html/d431b152-53d7-9a33-3e93-e0853977d10d.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="0c6db6f7-88a9-4e4e-b7cb-1818db843b44" Title="Configuration Class" Url="html/0e8a366c-9305-739c-e0e0-b72d937414a9.htm">
-      <HelpTOCNode Id="5b221d3c-ac6c-46ef-b0bc-9d20cda89185" Title="Configuration Properties" Url="html/f1afd621-14b0-0035-cd56-cc8ad6793e21.htm">
+    <HelpTOCNode Id="8594568d-d774-4669-a30c-006671d59bfc" Title="Configuration Class" Url="html/0e8a366c-9305-739c-e0e0-b72d937414a9.htm">
+      <HelpTOCNode Id="08eb06d8-946f-4083-9db4-7229085f9af0" Title="Configuration Properties" Url="html/f1afd621-14b0-0035-cd56-cc8ad6793e21.htm">
         <HelpTOCNode Title="Environment Property " Url="html/30f4b014-35f6-f0c3-a3e4-53ae048a8988.htm" />
         <HelpTOCNode Title="Key Property " Url="html/293f8ee2-3ea4-a470-8ccf-980e4f40af8c.htm" />
         <HelpTOCNode Title="Number Property " Url="html/852108b8-764f-25e5-1b38-e8d032e74639.htm" />
         <HelpTOCNode Title="Url Property " Url="html/e9fb1c66-7081-3013-36c6-660c12f8a6f1.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="d0bf6685-f7a7-42b7-811e-cbb2148d5f82" Title="ConfigurationSection Class" Url="html/632b85d3-ab7a-6128-861d-bf2f8f677709.htm">
+    <HelpTOCNode Id="98cc1e43-93af-433b-af06-cb4f2dee87f3" Title="ConfigurationSection Class" Url="html/632b85d3-ab7a-6128-861d-bf2f8f677709.htm">
       <HelpTOCNode Title="ConfigurationSection Constructor " Url="html/190f6061-b6a3-f814-467a-0e2ee8c4537d.htm" />
       <HelpTOCNode Title="ConfigurationSection Methods" Url="html/3768a95d-ff36-8f19-c184-3babb72c7a00.htm" />
-      <HelpTOCNode Id="8d532411-614b-4f79-9f7f-10c2a64440b2" Title="ConfigurationSection Properties" Url="html/0816cf8c-8cbb-01e1-7733-e86795c350f3.htm">
+      <HelpTOCNode Id="eb0050f6-a6e4-4c0b-ab9a-6a4a46c645c0" Title="ConfigurationSection Properties" Url="html/0816cf8c-8cbb-01e1-7733-e86795c350f3.htm">
         <HelpTOCNode Title="Environment Property " Url="html/8cc2c19b-3906-7c9b-790d-1406b5c9264f.htm" />
         <HelpTOCNode Title="Key Property " Url="html/b369a8ab-5fd4-7f13-f873-bdcdd1093f5c.htm" />
         <HelpTOCNode Title="Number Property " Url="html/4a499722-586e-87b4-779e-4f2728eb0c42.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
     <HelpTOCNode Title="Currency Enumeration" Url="html/5207657b-b177-0b34-ebe9-099260b49c08.htm" />
-    <HelpTOCNode Id="36ca6fab-bbc7-4d5c-8806-8af6b3d2bbf6" Title="ErrorResult Class" Url="html/dc69a234-293b-83c0-77f3-2220928dd37c.htm">
+    <HelpTOCNode Id="fd74a505-dfde-4d83-8646-e7316d61b0f9" Title="ErrorResult Class" Url="html/dc69a234-293b-83c0-77f3-2220928dd37c.htm">
       <HelpTOCNode Title="ErrorResult Constructor " Url="html/8475f512-2653-4a1d-152b-d77cb97b6579.htm" />
       <HelpTOCNode Title="ErrorResult Methods" Url="html/083728e7-3c64-295e-1d92-88f285d88e61.htm" />
-      <HelpTOCNode Id="c4d4e38c-3f16-47fa-8258-584d63c4c261" Title="ErrorResult Properties" Url="html/91b1154c-f0a7-3140-8738-4081e487f441.htm">
+      <HelpTOCNode Id="26ba4521-c1ac-4235-8734-57d84f900be3" Title="ErrorResult Properties" Url="html/91b1154c-f0a7-3140-8738-4081e487f441.htm">
         <HelpTOCNode Title="Code Property " Url="html/29c3b937-d103-bbcf-49e2-0575447fadd3.htm" />
         <HelpTOCNode Title="Message Property " Url="html/7ddbdb8e-1ac2-ba7e-8e76-60df8e043cef.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
     <HelpTOCNode Title="Language Enumeration" Url="html/8b4edc59-605a-c998-28d5-78b4fda72205.htm" />
-    <HelpTOCNode Id="fd6da33c-2adc-420a-8a40-2a0f646e4f9c" Title="Message Class" Url="html/ba750375-8388-18bf-21f0-c47ece01b2e3.htm">
+    <HelpTOCNode Id="a9981203-dbd0-418d-aee2-d0f1120b84e8" Title="Message Class" Url="html/ba750375-8388-18bf-21f0-c47ece01b2e3.htm">
       <HelpTOCNode Title="Message Constructor " Url="html/48d93908-afb8-8217-e323-accd02ae8da3.htm" />
       <HelpTOCNode Title="Message Methods" Url="html/5cf55558-b10f-b26e-8d6e-98fa27f4cc27.htm" />
-      <HelpTOCNode Id="3aa25b81-56d9-485c-a8d6-11a577bfe5b0" Title="Message Properties" Url="html/ad3fd3cb-86ed-c20e-c673-cbae4fd9d708.htm">
+      <HelpTOCNode Id="887d63c0-78a5-486f-a2d4-54066ac8161f" Title="Message Properties" Url="html/ad3fd3cb-86ed-c20e-c673-cbae4fd9d708.htm">
         <HelpTOCNode Title="Id Property " Url="html/9a97c236-e74e-167c-75bb-4309f3039db1.htm" />
         <HelpTOCNode Title="Version Property " Url="html/98653489-5da7-437e-504d-1b89ffe0f15b.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="16cb7079-1e5a-4b06-9b92-1d6fa2042248" Title="Order Class" Url="html/819940b0-b704-1dc6-295f-cb1d2c148a1c.htm">
-      <HelpTOCNode Id="5e3d52b5-ce1a-47fa-b631-bedc3b22d3ea" Title="Order Constructor " Url="html/cfc33d51-0994-45b2-e7a0-d680d25146ea.htm">
+    <HelpTOCNode Id="ab98d681-6650-4b9f-9300-c9e222b7dc6a" Title="Order Class" Url="html/819940b0-b704-1dc6-295f-cb1d2c148a1c.htm">
+      <HelpTOCNode Id="9f8afc3a-4bb8-436d-938d-c9df82de69c3" Title="Order Constructor " Url="html/cfc33d51-0994-45b2-e7a0-d680d25146ea.htm">
         <HelpTOCNode Title="Order Constructor " Url="html/d63d7312-3ed0-78db-c265-983e111533a5.htm" />
         <HelpTOCNode Title="Order Constructor (String, Decimal, String)" Url="html/0f8fe03f-45d5-fe43-5164-b77c3548b51d.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="Order Methods" Url="html/22cc0dd1-3958-f1e0-2a66-af4e1dc992b8.htm" />
-      <HelpTOCNode Id="9bb91e43-3fa1-4417-9df3-d4f285648a93" Title="Order Properties" Url="html/c17a4ee5-e9c4-d572-fbd3-9bb09dbf250c.htm">
+      <HelpTOCNode Id="7e7849c7-4029-48c2-abfe-f0c47574af34" Title="Order Properties" Url="html/c17a4ee5-e9c4-d572-fbd3-9bb09dbf250c.htm">
         <HelpTOCNode Title="Amount Property " Url="html/14178eb0-6e70-2161-ea87-28bf083568d1.htm" />
         <HelpTOCNode Title="Currency Property " Url="html/677e499f-b852-4afb-6a98-ecd6b8d93a37.htm" />
         <HelpTOCNode Title="Date Property " Url="html/e43b1ed4-e0eb-9fac-2721-4b5379904224.htm" />
@@ -149,10 +152,10 @@
         <HelpTOCNode Title="ShortDescription Property " Url="html/0c34cfb2-cf6e-b7a4-8e73-22ba99873d08.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="56562884-9214-48f4-904a-c7b6b64e01e7" Title="PaymentMethod Class" Url="html/4dee1d07-2f93-6915-e1fc-ddc568a0943c.htm">
+    <HelpTOCNode Id="910b5daa-a583-4da1-8400-5a35d7f34204" Title="PaymentMethod Class" Url="html/4dee1d07-2f93-6915-e1fc-ddc568a0943c.htm">
       <HelpTOCNode Title="PaymentMethod Constructor " Url="html/a5992fa2-36f3-474a-bb39-5f8981d26741.htm" />
       <HelpTOCNode Title="PaymentMethod Methods" Url="html/43a3d230-a3c3-d575-312b-15204fd8df52.htm" />
-      <HelpTOCNode Id="1cf337cc-bfa2-4d08-ac2c-da91041d17c4" Title="PaymentMethod Properties" Url="html/3e286f8f-d362-e6d9-adfb-b9919c9ef859.htm">
+      <HelpTOCNode Id="509650e9-a9a7-4b34-b89b-5f3d5f2451d8" Title="PaymentMethod Properties" Url="html/3e286f8f-d362-e6d9-adfb-b9919c9ef859.htm">
         <HelpTOCNode Title="Brand Property " Url="html/d78ee1ab-cb4b-c95f-c11a-862a90fb204e.htm" />
         <HelpTOCNode Title="Parcel Property " Url="html/8b7dbd77-4207-6aef-61ef-e51f30952363.htm" />
         <HelpTOCNode Title="Product Property " Url="html/38e1935c-bfe2-1ae5-c438-753e19e0213a.htm" />
@@ -160,60 +163,60 @@
     </HelpTOCNode>
     <HelpTOCNode Title="PaymentMethodBrand Enumeration" Url="html/b66c821b-5437-8ec8-9ce6-41777e6d9b7c.htm" />
     <HelpTOCNode Title="PaymentMethodProduct Enumeration" Url="html/67a96746-139d-5791-1f33-c36fb4dd8640.htm" />
-    <HelpTOCNode Id="becb1526-330e-43df-b8e2-8a15a452f62a" Title="Request Class" Url="html/1f604782-16f3-17c9-bee1-cdd824049517.htm">
+    <HelpTOCNode Id="fd390253-6042-43c4-a989-cc1e96505fc8" Title="Request Class" Url="html/1f604782-16f3-17c9-bee1-cdd824049517.htm">
       <HelpTOCNode Title="Request Constructor " Url="html/4195b4ab-edbe-1bc3-da9c-b9dd833d5a08.htm" />
       <HelpTOCNode Title="Request Methods" Url="html/391d57cc-6b7e-be22-396f-a8d1ab366538.htm" />
-      <HelpTOCNode Id="e356a90d-021c-4d66-99b9-23c9f3a07ead" Title="Request Properties" Url="html/c79b0b0f-a070-fa7c-9516-0d95d8189d14.htm">
+      <HelpTOCNode Id="6864d56a-36bf-4907-b3d0-da6ac72366a7" Title="Request Properties" Url="html/c79b0b0f-a070-fa7c-9516-0d95d8189d14.htm">
         <HelpTOCNode Title="Authentication Property " Url="html/3c53dd21-f37d-95e6-6a0b-bf61a4108fd0.htm" />
         <HelpTOCNode Title="Tid Property " Url="html/1a4db396-5864-d4bc-ff3d-85a9dcbfc0c0.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="8058b09b-3b60-41a0-9637-dd579f22e45d" Title="RequestToken Class" Url="html/e97ad11d-779b-4d1e-a241-d649c8a53eee.htm">
+    <HelpTOCNode Id="743d3843-0b86-44fb-99e4-e06183b3c139" Title="RequestToken Class" Url="html/e97ad11d-779b-4d1e-a241-d649c8a53eee.htm">
       <HelpTOCNode Title="RequestToken Constructor " Url="html/cb154bb4-fc50-1985-9562-2376f59e23de.htm" />
       <HelpTOCNode Title="RequestToken Methods" Url="html/b0507afb-9b13-babf-d538-45ba08fdc79d.htm" />
-      <HelpTOCNode Id="86a89687-768b-4b67-bba3-6f3418c7a65d" Title="RequestToken Properties" Url="html/bdda2db4-59d4-e8c4-938a-46ce4902f6a9.htm">
+      <HelpTOCNode Id="e0eb8df0-35c1-4655-bddb-ecb6d37cf465" Title="RequestToken Properties" Url="html/bdda2db4-59d4-e8c4-938a-46ce4902f6a9.htm">
         <HelpTOCNode Title="Authentication Property " Url="html/16fe06e1-f669-6a68-6eaf-082e5708f60e.htm" />
         <HelpTOCNode Title="Card Property " Url="html/64da2958-194d-465b-51d2-a37ec1375056.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="9cf5f6be-0181-453c-b4ca-af448242b118" Title="RequestTransaction Class" Url="html/52bacd22-5a84-214f-8873-7717a6f342d5.htm">
+    <HelpTOCNode Id="d11318db-9081-40a1-96df-c95746238d8e" Title="RequestTransaction Class" Url="html/52bacd22-5a84-214f-8873-7717a6f342d5.htm">
       <HelpTOCNode Title="RequestTransaction Constructor " Url="html/9515d62a-313d-d7d8-c7be-c9f83902e60a.htm" />
       <HelpTOCNode Title="RequestTransaction Methods" Url="html/2a9e5aff-f31f-c9e5-1475-589c5613e9ba.htm" />
       <HelpTOCNode Title="RequestTransaction Properties" Url="html/86b79dab-53da-bbfd-b154-e1ea3eb651ae.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="15999aa9-86ac-459f-b4d5-70e0cf748d3b" Title="Token Class" Url="html/1600ca1d-d46b-f4d3-a564-2b1690c6685c.htm">
+    <HelpTOCNode Id="1fc730e8-78b7-477f-84c7-1190225ee393" Title="Token Class" Url="html/1600ca1d-d46b-f4d3-a564-2b1690c6685c.htm">
       <HelpTOCNode Title="Token Constructor " Url="html/cf6f3aff-657d-9972-0003-aa3f9815ffac.htm" />
       <HelpTOCNode Title="Token Methods" Url="html/de053f39-4245-05a5-4bbf-9ea4799dfd54.htm" />
-      <HelpTOCNode Id="94aa0f17-9732-4eab-8755-735ba8f1dbab" Title="Token Properties" Url="html/32e3c6b4-508b-0d93-a5b3-dc20434d3db6.htm">
+      <HelpTOCNode Id="9fc415bf-6b15-4a48-8d34-8d8a82166027" Title="Token Properties" Url="html/32e3c6b4-508b-0d93-a5b3-dc20434d3db6.htm">
         <HelpTOCNode Title="Data Property " Url="html/71cc1bb7-3b2c-e45e-5a47-d4576251dc12.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="f5cc33e5-2f18-42b6-b210-c8fb4c7d0cf9" Title="TokenData Class" Url="html/15d8fa46-ed31-03a6-a045-71480e6525a3.htm">
+    <HelpTOCNode Id="e5600514-3b11-489a-8a09-f885cf1ac3f1" Title="TokenData Class" Url="html/15d8fa46-ed31-03a6-a045-71480e6525a3.htm">
       <HelpTOCNode Title="TokenData Constructor " Url="html/e6f0802c-b2ba-0f62-9e87-8a5067db7204.htm" />
       <HelpTOCNode Title="TokenData Methods" Url="html/9844276b-46ba-a3cc-2d2f-3c4e3c8ab8c4.htm" />
-      <HelpTOCNode Id="4a3a60ac-0c6d-40be-9bc0-4d255fc2112b" Title="TokenData Properties" Url="html/b6545697-d1dc-a4bc-d606-c8ae9608a499.htm">
+      <HelpTOCNode Id="9f83088d-0031-4d3a-80d3-08d84eec0fe5" Title="TokenData Properties" Url="html/b6545697-d1dc-a4bc-d606-c8ae9608a499.htm">
         <HelpTOCNode Title="Code Property " Url="html/8a25778c-6ad4-ccd0-7a7b-65a9448e293f.htm" />
         <HelpTOCNode Title="Status Property " Url="html/b4a7f745-2e8a-1629-ce36-7d2d723b887d.htm" />
         <HelpTOCNode Title="TruncateCardNumber Property " Url="html/e5339551-62a8-11a8-1f8a-bea99763ff0e.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="2df54da8-d8a5-48b1-8325-b89491c89250" Title="TokenResult Class" Url="html/92416fef-9203-fa8c-1cf1-0c613784cb2c.htm">
+    <HelpTOCNode Id="4bb1d213-50fc-44e2-8bf1-24e89510ac9e" Title="TokenResult Class" Url="html/92416fef-9203-fa8c-1cf1-0c613784cb2c.htm">
       <HelpTOCNode Title="TokenResult Constructor " Url="html/84c2a41e-8cd1-51cc-3585-dd8e31436f32.htm" />
       <HelpTOCNode Title="TokenResult Methods" Url="html/8416d991-c4d2-16a2-826d-bbcc41aaf4f2.htm" />
-      <HelpTOCNode Id="2e13decc-d490-4ffe-aec9-b8ef503466e4" Title="TokenResult Properties" Url="html/1fdf0171-63d1-21e5-4963-6cd757290964.htm">
+      <HelpTOCNode Id="2d747eb2-3376-411e-911a-00deb3841ecc" Title="TokenResult Properties" Url="html/1fdf0171-63d1-21e5-4963-6cd757290964.htm">
         <HelpTOCNode Title="Token Property " Url="html/db14112d-09c5-6de3-d745-1286a5a98f1c.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
     <HelpTOCNode Title="TokenStatus Enumeration" Url="html/d1d1cb7b-2c85-2d02-0df6-78053ade7a5b.htm" />
-    <HelpTOCNode Id="c7ed5089-e4e9-4456-8883-836344cd9b78" Title="Transaction Class" Url="html/a56e1ccc-421a-8684-bbe5-fea71aaf5671.htm">
+    <HelpTOCNode Id="e25b40ce-d294-47d0-9146-54a999ebeaa4" Title="Transaction Class" Url="html/a56e1ccc-421a-8684-bbe5-fea71aaf5671.htm">
       <HelpTOCNode Title="Transaction Constructor " Url="html/5a418806-d7a1-d870-32c1-932aa837f328.htm" />
-      <HelpTOCNode Id="919a0656-7d0a-4f83-b27c-cff87be305af" Title="Transaction Methods" Url="html/3cbf3f70-1c7a-4285-413e-be1030be2553.htm">
+      <HelpTOCNode Id="01c7dfdc-bf4a-4f48-979d-f7f1fad47235" Title="Transaction Methods" Url="html/3cbf3f70-1c7a-4285-413e-be1030be2553.htm">
         <HelpTOCNode Title="ShouldSerializeAvs Method " Url="html/d11ad325-810d-cf8d-2943-f2640793bbf4.htm" />
         <HelpTOCNode Title="ShouldSerializeBin Method " Url="html/9c325c1b-a2b1-e316-a30b-1f7e6bb915e4.htm" />
         <HelpTOCNode Title="ShouldSerializeFreeField Method " Url="html/be6080a0-488f-301a-729e-eb5a832444d4.htm" />
         <HelpTOCNode Title="ShouldSerializeGenerateToken Method " Url="html/e4805c8d-03b2-2363-a90b-3c917b64cdc4.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="cc3bfd4c-6ea9-4f17-86a4-1555f5cd66ad" Title="Transaction Properties" Url="html/a51b201a-451d-6b42-6011-fed69c7aae19.htm">
+      <HelpTOCNode Id="aabd5925-6682-420a-91be-7f8f8f773945" Title="Transaction Properties" Url="html/a51b201a-451d-6b42-6011-fed69c7aae19.htm">
         <HelpTOCNode Title="Authentication Property " Url="html/0106260f-a0cd-097a-5c7c-e2c642bc127b.htm" />
         <HelpTOCNode Title="AuthorizationType Property " Url="html/e4065791-d3f8-f0d3-f1df-ca4781c61700.htm" />
         <HelpTOCNode Title="Avs Property " Url="html/9b0bc46f-d224-08bc-a514-58a72cd1738c.htm" />
@@ -228,10 +231,10 @@
       </HelpTOCNode>
     </HelpTOCNode>
     <HelpTOCNode Title="TransactionAuthorizationType Enumeration" Url="html/171d2fdf-6229-9dfc-7dfc-4e9310ad26ac.htm" />
-    <HelpTOCNode Id="20dbf97e-6f59-407d-a4be-08df986cae11" Title="TransactionResult Class" Url="html/32eed549-4061-a866-cc64-0e3fadc123a7.htm">
+    <HelpTOCNode Id="1088a1e0-bad2-41a0-8c4d-692bb999ba72" Title="TransactionResult Class" Url="html/32eed549-4061-a866-cc64-0e3fadc123a7.htm">
       <HelpTOCNode Title="TransactionResult Constructor " Url="html/d0c9dad7-4d97-c86c-1d54-cc2f2bec0597.htm" />
       <HelpTOCNode Title="TransactionResult Methods" Url="html/f5da59a9-e6b7-e937-5107-beb1244bdcbc.htm" />
-      <HelpTOCNode Id="c86db0f5-da0d-4e6d-872c-5a234c56f835" Title="TransactionResult Properties" Url="html/f094e98f-6390-23d5-6deb-2f8529349739.htm">
+      <HelpTOCNode Id="df7e5b49-671d-4655-85a4-54819b2fdf91" Title="TransactionResult Properties" Url="html/f094e98f-6390-23d5-6deb-2f8529349739.htm">
         <HelpTOCNode Title="Authentication Property " Url="html/f696e51b-6696-f1cc-d37f-6f19ba88a1f4.htm" />
         <HelpTOCNode Title="Authorization Property " Url="html/2fa88db2-4967-6063-a371-cd46e8727b66.htm" />
         <HelpTOCNode Title="Cancellation Property " Url="html/062095df-3d4b-d98d-2729-82ae315cf842.htm" />
@@ -240,14 +243,14 @@
         <HelpTOCNode Title="PaymentMethod Property " Url="html/a92feb45-7cd9-b925-0551-a4b346e21002.htm" />
         <HelpTOCNode Title="Status Property " Url="html/a8055d7f-3bf8-2303-a1b8-ef336da599ac.htm" />
         <HelpTOCNode Title="Tid Property " Url="html/9af84441-497a-887a-234f-c4e3e8371808.htm" />
+        <HelpTOCNode Title="Token Property " Url="html/2a4cbd4e-7467-a275-e1ec-8c3d008261c3.htm" />
         <HelpTOCNode Title="UrlAuthentication Property " Url="html/287af0d3-1b5e-d84c-7cf6-c0ad84f91505.htm" />
-        <HelpTOCNode Title="Xml Property " Url="html/c336ba27-8b0d-ecd3-7f82-88a6c7d79706.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="507569bc-2ace-4b04-b306-90f42305e430" Title="TransactionResultAuthentication Class" Url="html/c001374b-451e-33f4-05ac-417ef975e623.htm">
+    <HelpTOCNode Id="8b5f67b4-9a45-4bba-9914-fd9ee2789d80" Title="TransactionResultAuthentication Class" Url="html/c001374b-451e-33f4-05ac-417ef975e623.htm">
       <HelpTOCNode Title="TransactionResultAuthentication Constructor " Url="html/60a45280-7ccf-ddac-e83f-91c42454dbd9.htm" />
       <HelpTOCNode Title="TransactionResultAuthentication Methods" Url="html/8efa89f7-a722-578e-9bbc-3fee542a6a18.htm" />
-      <HelpTOCNode Id="9da613e1-b7ec-44de-926c-69fecf3a5fa8" Title="TransactionResultAuthentication Properties" Url="html/ab4604db-47d8-562c-5325-7e1d78f5ccb0.htm">
+      <HelpTOCNode Id="01ad2fc7-1070-48a9-ba7c-25381f80d1ac" Title="TransactionResultAuthentication Properties" Url="html/ab4604db-47d8-562c-5325-7e1d78f5ccb0.htm">
         <HelpTOCNode Title="Amount Property " Url="html/55c4347e-9338-b18e-62cd-9913b597402b.htm" />
         <HelpTOCNode Title="Code Property " Url="html/ef0d1b68-a737-d75c-bea3-303fa07a3748.htm" />
         <HelpTOCNode Title="Date Property " Url="html/281dc0fa-d8d9-e6aa-8bb6-adf1e4322ce8.htm" />
@@ -255,10 +258,10 @@
         <HelpTOCNode Title="Message Property " Url="html/c8a6a684-6170-c981-ddb0-b5f26c2c75c3.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="033624e6-685b-40a2-9edc-1c95faa87243" Title="TransactionResultAuthorization Class" Url="html/e89ff496-5f6e-a903-3f88-e46c8857cc7d.htm">
+    <HelpTOCNode Id="1af8cd49-3b35-4738-9c37-a60e4206f4bc" Title="TransactionResultAuthorization Class" Url="html/e89ff496-5f6e-a903-3f88-e46c8857cc7d.htm">
       <HelpTOCNode Title="TransactionResultAuthorization Constructor " Url="html/506ce378-f342-3229-e0fe-c6f2022a358f.htm" />
       <HelpTOCNode Title="TransactionResultAuthorization Methods" Url="html/8c5fab39-83cc-342e-0f77-2bd415dd1e42.htm" />
-      <HelpTOCNode Id="5ef61320-ced5-4695-8c1e-bfa113b476af" Title="TransactionResultAuthorization Properties" Url="html/b45d4fb8-976d-ea44-8920-629e7edd9146.htm">
+      <HelpTOCNode Id="68b96841-a706-4705-ad8e-e4b6fe5a3044" Title="TransactionResultAuthorization Properties" Url="html/b45d4fb8-976d-ea44-8920-629e7edd9146.htm">
         <HelpTOCNode Title="Amount Property " Url="html/80f3fce7-be46-cda9-2642-0f5666ab1e62.htm" />
         <HelpTOCNode Title="Code Property " Url="html/4f111626-3776-7885-c4d3-19af651ae873.htm" />
         <HelpTOCNode Title="Date Property " Url="html/593079b0-4c88-c0b0-f4f4-f21d734e9d55.htm" />
@@ -267,17 +270,17 @@
         <HelpTOCNode Title="Nsu Property " Url="html/fa408217-9c0b-777e-c830-6f6b362daeb3.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="cacfed16-73fc-4a33-af36-927fbe3bea8f" Title="TransactionResultCancellation Class" Url="html/b036b939-15b9-3909-1f0b-10d8c7baf5d7.htm">
+    <HelpTOCNode Id="52d32212-fff1-4109-a28a-75267cbb667c" Title="TransactionResultCancellation Class" Url="html/b036b939-15b9-3909-1f0b-10d8c7baf5d7.htm">
       <HelpTOCNode Title="TransactionResultCancellation Constructor " Url="html/ebf3b855-9aac-7c07-1dd3-ea8f7ed6d5c8.htm" />
       <HelpTOCNode Title="TransactionResultCancellation Methods" Url="html/c77d2c1f-aafe-3c32-7123-5b9edd8dbec1.htm" />
-      <HelpTOCNode Id="2f51d4ff-7ef9-4c06-9f80-510b40ef908d" Title="TransactionResultCancellation Properties" Url="html/7ed8e638-dce4-1659-e6e2-fa643635e3a2.htm">
+      <HelpTOCNode Id="eaec8ea3-5fff-4b35-ad65-48f756593180" Title="TransactionResultCancellation Properties" Url="html/7ed8e638-dce4-1659-e6e2-fa643635e3a2.htm">
         <HelpTOCNode Title="Items Property " Url="html/a7630d35-ae40-f373-b733-0049b78d10c7.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="9db1d6e4-fb06-4bc2-852d-8f2b4381e483" Title="TransactionResultCancellationItem Class" Url="html/34e40a0b-c9bc-3c52-0cf4-b0381445074e.htm">
+    <HelpTOCNode Id="82f92570-2bfa-4cc7-b846-59e1a4f9eac7" Title="TransactionResultCancellationItem Class" Url="html/34e40a0b-c9bc-3c52-0cf4-b0381445074e.htm">
       <HelpTOCNode Title="TransactionResultCancellationItem Constructor " Url="html/80f4ab37-a325-1798-4a27-e65117e0088c.htm" />
       <HelpTOCNode Title="TransactionResultCancellationItem Methods" Url="html/c476491e-c11b-346e-eea6-83764e771d0d.htm" />
-      <HelpTOCNode Id="1fc37553-153a-41fa-b9ef-b43665bffe3e" Title="TransactionResultCancellationItem Properties" Url="html/11e3a3a9-70dc-9209-6d71-28afe76e7a5c.htm">
+      <HelpTOCNode Id="954ce463-17f3-40b1-bf39-f5b2ac58900e" Title="TransactionResultCancellationItem Properties" Url="html/11e3a3a9-70dc-9209-6d71-28afe76e7a5c.htm">
         <HelpTOCNode Title="Amount Property " Url="html/3bc6d60b-305e-7dd4-5a35-ed8281f11cda.htm" />
         <HelpTOCNode Title="Code Property " Url="html/d634bb29-25fb-2fa0-2525-dd725a50e999.htm" />
         <HelpTOCNode Title="Date Property " Url="html/18c910b4-2890-a0ca-5153-9057e5743570.htm" />
@@ -285,10 +288,10 @@
         <HelpTOCNode Title="Message Property " Url="html/4d0c3d0f-e74b-6186-54db-2e05e424f264.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="1a38d812-234b-4cf4-842c-9e64375685cb" Title="TransactionResultCapture Class" Url="html/b6b71318-eaea-6928-7f16-dc29e492b710.htm">
+    <HelpTOCNode Id="86db22df-45ee-4476-8ce6-b76dca085c35" Title="TransactionResultCapture Class" Url="html/b6b71318-eaea-6928-7f16-dc29e492b710.htm">
       <HelpTOCNode Title="TransactionResultCapture Constructor " Url="html/22b1c978-bed9-7f10-0ec1-e19be06787d6.htm" />
       <HelpTOCNode Title="TransactionResultCapture Methods" Url="html/5189c50a-ea0a-5300-e966-e5b8ec266b9d.htm" />
-      <HelpTOCNode Id="5a37d261-8f89-4ce4-b687-61407a7dbe22" Title="TransactionResultCapture Properties" Url="html/a93c0b81-ef5d-51a1-b51a-d662fac72970.htm">
+      <HelpTOCNode Id="5aa83f8c-7559-4032-97bb-1e702e8e6385" Title="TransactionResultCapture Properties" Url="html/a93c0b81-ef5d-51a1-b51a-d662fac72970.htm">
         <HelpTOCNode Title="Amount Property " Url="html/8babe399-1288-1879-c747-74bf2db5bc55.htm" />
         <HelpTOCNode Title="Code Property " Url="html/1747ee0f-3658-05e7-d07c-3dcb5f16e1bc.htm" />
         <HelpTOCNode Title="Date Property " Url="html/638816da-7c8a-b60f-3ab1-af5bd88a1175.htm" />
