@@ -329,7 +329,10 @@ namespace Cielo4Net
                 content = streamReader.ReadToEnd();
             }
 
-            var result = new CommunicationResult();
+            var result = new CommunicationResult
+            {
+                SentXml = xml
+            };
 
             if (response.StatusCode != HttpStatusCode.OK)
             {
@@ -340,9 +343,9 @@ namespace Cielo4Net
                 throw new Exception(message);
             }
 
-            result.Xml = content;
+            result.ReceivedXml = content;
 
-            Log.Debug(string.Format("Xml recebido:\n{0}", result.Xml));
+            Log.Debug(string.Format("Xml recebido:\n{0}", result.ReceivedXml));
 
             if (content.Contains("</transacao>"))
             {

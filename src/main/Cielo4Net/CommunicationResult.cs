@@ -23,10 +23,16 @@ namespace Cielo4Net
         public TokenResult Token { get; set; }
         
         /// <summary>
-        ///     Recupera ou define XML de retorno.
+        ///     Recupera ou define XML enviado.
         /// </summary>
         [XmlIgnore]
-        public string Xml { get; set; }
+        public string SentXml { get; set; }
+
+        /// <summary>
+        /// Recupera ou define XML retornado.
+        /// </summary>
+        [XmlIgnore]
+        public string ReceivedXml { get; set; }
 
         /// <summary>
         ///     É um erro.
