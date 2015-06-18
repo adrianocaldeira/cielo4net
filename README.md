@@ -30,3 +30,6 @@ Para instalar, execute o seguinte comando no <a href="http://docs.nuget.org/docs
 
 - Versão 1.0.3
 	- Inclusão das propriedades contendo o Xml enviado a Cielo e o Xml que foi recebido da Cielo. 		
+	
+- Versão 1.0.4
+	- Implementação de Timeout de requisição. 			
