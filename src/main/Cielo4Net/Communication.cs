@@ -303,6 +303,7 @@ namespace Cielo4Net
             request.ContentLength = Encoding.GetBytes(data).Length;
             request.ContentType = string.Format("application/x-www-form-urlencoded; charset={0}", Encoding.WebName);
             request.Method = "POST";
+            request.Timeout = Configuration.Timeout;
 
             using (var streamWriter = new StreamWriter(request.GetRequestStream(), Encoding))
             {

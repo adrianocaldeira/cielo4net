@@ -36,5 +36,15 @@ namespace Cielo4Net
             get { return (string) base["environment"]; }
             set { base["environment"] = value; }
         }
+
+        /// <summary>
+        ///     Recupera ou define timeout.
+        /// </summary>
+        [ConfigurationProperty("timeout", DefaultValue = 30000)]
+        public int Timeout
+        {
+            get { return (int)base["timeout"]; }
+            set { base["timeout"] = value; }
+        }
     }
 }

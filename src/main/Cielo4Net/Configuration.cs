@@ -14,6 +14,7 @@ namespace Cielo4Net
             Number = configurationSection.Number;
             Key = configurationSection.Key;
             Environment = configurationSection.Environment;
+            Timeout = configurationSection.Timeout;
 
             if (Environment.ToLower().Equals("test"))
                 Url = "https://qasecommerce.cielo.com.br";
@@ -43,5 +44,10 @@ namespace Cielo4Net
         ///     Recupera url do webservice da Cielo.
         /// </summary>
         public static string Url { get; private set; }
+
+        /// <summary>
+        ///     Recupera timeout para chamada ao serviço da Cielo.
+        /// </summary>
+        public static int Timeout { get; private set; }
     }
 }
