@@ -32,7 +32,7 @@ namespace Cielo4Net
         ///     Recupera ou define código de segurança, obrigatório se indicador for Provided.
         /// </summary>
         [XmlElement("codigo-seguranca")]
-        public int SecurityCode { get; set; }
+        public string SecurityCode { get; set; }
 
         /// <summary>
         ///     Recupera ou define nome impresso no cartão.
@@ -62,7 +62,7 @@ namespace Cielo4Net
         /// <returns></returns>
         public bool ShouldSerializeSecurityCode()
         {
-            return SecurityCode != 0;
+            return !string.IsNullOrWhiteSpace(SecurityCode);
         }
 
         /// <summary>
