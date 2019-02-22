@@ -8,7 +8,7 @@ using log4net.Config;
 
 namespace Tests
 {
-    public class MvcApplication : System.Web.HttpApplication
+    public class MvcApplication : HttpApplication
     {
         protected void Application_Start()
         {

@@ -35,7 +35,7 @@ namespace Cielo4Net
         /// <summary>
         ///     Recupera ou define o encoding.
         /// </summary>
-        public Encoding Encoding { get; private set; }
+        public Encoding Encoding { get; }
 
         /// <summary>
         ///     Recupera ou define <see cref="ILog" />
@@ -294,14 +294,18 @@ namespace Cielo4Net
 
         private CommunicationResult Send(string xml)
         {
+            ServicePointManager.Expect100Continue = true;
+            ServicePointManager.SecurityProtocol |= SecurityProtocolType.Tls12;
+            ServicePointManager.SecurityProtocol |= SecurityProtocolType.Ssl3;
+
             var request = (HttpWebRequest) WebRequest.Create(Configuration.Url);
-            var data = string.Format("mensagem={0}", xml);
+            var data = $"mensagem={xml}";
             string content;
 
-            Log.Debug(string.Format("Xml enviado:\n{0}", xml));
+            Log.Debug($"Xml enviado:\n{xml}");
 
             request.ContentLength = Encoding.GetBytes(data).Length;
-            request.ContentType = string.Format("application/x-www-form-urlencoded; charset={0}", Encoding.WebName);
+            request.ContentType = $"application/x-www-form-urlencoded; charset={Encoding.WebName}";
             request.Method = "POST";
             request.Timeout = Configuration.Timeout;
 
